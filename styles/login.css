@@ -1,0 +1,9 @@
+/* Text alignment for input fields */
+.login-input-container {
+    text-align: left; /* Align text inside input fields to the left */
+}
+
+/* Centering other text */
+.login-title {
+    text-align: center; /* Center text */
+}
