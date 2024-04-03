@@ -1,0 +1,18 @@
+textarea {
+    color: #2a2a2a; /* Default text color inside of text box for entry*/
+    background-color: #E4CCFF; /* Default background color of text box*/
+    border: 2px outset #cda1ff; /* Default border color of text box*/
+    padding: 8px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    width: 600px;
+    height: 600px;
+}
