@@ -1,3 +1,13 @@
 body {
     background-color: #FFEDD7;
+    color: #2a2a2a;
+    font-family: 'Georgia', sans-serif;
+}
+
+textarea {
+    color: #2a2a2a; /* Default text color inside of input fields*/
+    background-color: #C7E6FC; /* Default background color of input fields*/
+    border: 2px outset #7fcaff; /* Default border color of input fields*/
+    padding: 8px;
+    font-size: 16px;
 }
