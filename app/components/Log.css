@@ -1,0 +1,39 @@
+.log-item a:hover,
+.log-item a:active {
+  background: #ffd900;
+}
+.log-item { display: flex;}
+
+.log-content {
+  padding: 0;
+}
+
+.log-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 25%;
+}
+
+
+.log-info h2 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #52329c;
+  display: inline;
+}
+.log-info h3 {
+    margin: 0.2em 0;
+}
+
+.log-item:hover h2,
+.log-item:active h2,
+.log-item:hover h3,
+.log-item:active h3 {
+  color: #292929;
+}
+
+.log-item__info h3 {
+  margin: 0;
+}
