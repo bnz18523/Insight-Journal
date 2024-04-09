@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { useRouter } from 'next/navigation';
+import { useLogin } from '../LoginContext';
 import Card from './Card';
 import Button from './Button';
 import './UserLogin.css';
@@ -8,6 +9,7 @@ const UserLogin = (props) => {
 
   const [enteredName, setEnteredName] = useState('');
   const [enteredDescription, setEnteredDescription] = useState('');
+  const { login, loggedIn, logout  } = useLogin();
 
   const nameChangeHandler = (event) => {
     setEnteredName(event.target.value);
@@ -16,6 +18,8 @@ const UserLogin = (props) => {
   const descriptionChangeHandler = (event) => {
     setEnteredDescription(event.target.value);
   };
+
+  const router = useRouter();
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -28,9 +32,15 @@ const UserLogin = (props) => {
     if (logData.name == "" && logData.description == "") {
       alert("Please input your username and password.");
     } else {
-    props.onSaveLogData(logData);
+    //props.onSaveLogData(logData);
     setEnteredDescription('');
     setEnteredName('');
+    }
+
+    if (logData.name == "user" && logData.description == "pass") {
+    login();
+    console.log("logged in");
+      router.push('/');
     }
   }
 
