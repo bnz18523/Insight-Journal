@@ -1,12 +1,11 @@
 'use client';
-import Hdr from './components/Hdr';
-import Entry from './components/UserSignup';
+//import Hdr from './components/Hdr';
+import Entry from './components/MainPage';
 
 function App() {
 
   return (
     <div>
-      <Hdr />
       <Entry />
     </div>
   );

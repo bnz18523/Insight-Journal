@@ -4,6 +4,7 @@ import Daily from './Daily';
 import Cooking from './Cooking';
 import NewSectionForm from './NewSectionForm';
 import DynamicSection from './DynamicSection';
+import Button from './Button';
 
 function MainPage() {
   const [sections, setSections] = useState(['Sports', 'Daily', 'Cooking']);
@@ -24,7 +25,7 @@ function MainPage() {
         <h1>Main Journal Page</h1>
         <div>
           <button onClick={() => setShowNewSectionForm(true)}>Add Section</button>
-          <button>Logout</button>
+          <Button><a href="/">Logout</a></Button>
         </div>
       </div>
       {showNewSectionForm && (

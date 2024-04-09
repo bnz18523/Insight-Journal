@@ -62,7 +62,7 @@ const UserLogin = (props) => {
           value={enteredDescription}
           onChange={descriptionChangeHandler}
         />
-        <Button type="submit">Login</Button>
+        <Button type="submit"><a href="Entry">Login</a></Button>
       </form>
     </Card>
   );
