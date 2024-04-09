@@ -8,8 +8,8 @@ const Hdr = () => {
   return (
     <div>
       <nav>
-        <p><a href="Signup">Signup</a></p>
-        <p><a href="Login">Login</a></p>
+        <Button><a href="Signup">Signup</a></Button>
+        <Button><a href="Login">Login</a></Button>
       </nav>
       <div className="hdr">
         <h1>Insight Journal</h1>

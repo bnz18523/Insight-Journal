@@ -1,15 +1,15 @@
-.users {
+.logs {
     margin: 2rem auto;
     width: 90%;
     max-width: 40rem;
   }
   
-  .users ul {
+  .logs ul {
     list-style: none;
     padding: 1rem;
   }
   
-  .users li {
+  .logs li {
     border: 1px solid #ccc;
     margin: 0.5rem 0;
     padding: 0.5rem;

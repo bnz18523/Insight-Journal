@@ -28,11 +28,7 @@ textarea {
     font-size: 16px;
 }
 
-nav {
-    text-align: left;
-    padding: 0%;
+button {
+    margin-left: left;
 }
 
-button {
-    margin-left: 1%
-}

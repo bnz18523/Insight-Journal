@@ -30,7 +30,7 @@ function App() {
     }
     
   ]);
-
+  //<AddLog onSaveLogData={addLogData}/>
   const addLogData = newLog => {
     newLogs(oldLogs => [...oldLogs, newLog])
     console.log(newLog);
@@ -39,7 +39,6 @@ function App() {
   return (
     <div>
       <Hdr />
-      <AddLog onSaveLogData={addLogData}/>
       <LogList logs={logs} />
     </div>
   );

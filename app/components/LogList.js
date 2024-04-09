@@ -7,7 +7,7 @@ const LogList = (props) => {
     const {logs} = props;
     return (
         <ul>
-            <Card className="users">
+            <Card className="logs">
                 {logs.map(log => (
                     <Log
                         key={log.id}
