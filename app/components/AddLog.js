@@ -40,7 +40,7 @@ const AddLog = (props) => {
       description: enteredDescription
     };
     if (logData.name == "") {
-      alert("Please input a name for the user.");
+      alert("Please input a title for the event.");
     } else {
     props.onSaveLogData(logData);
     setEnteredDate('');

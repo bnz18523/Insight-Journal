@@ -4,7 +4,7 @@ import LogList from './components/LogList';
 import AddLog from './components/AddLog';
 import Hdr from './components/Hdr';
 
-function Home() {
+function App() {
 
   const [logs, newLogs] = useState([
     {
@@ -45,4 +45,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;

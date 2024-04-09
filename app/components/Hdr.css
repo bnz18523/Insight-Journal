@@ -13,10 +13,21 @@
     font-family: 'Georgia', sans-serif;
 }
 
+.hdr img {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
 textarea {
     color: #2a2a2a; /* Default text color inside of text box for entry*/
     background-color: #E4CCFF; /* Default background color of text box*/
     border: 2px outset #cda1ff; /* Default border color of text box*/
     padding: 8px;
     font-size: 16px;
+}
+
+nav {
+    text-align: right 20px;
 }

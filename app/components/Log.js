@@ -10,7 +10,7 @@ const Log = props => {
         <img src={props.img} className="log-img" alt={props.name} />
         <div className="log-info">
             <h2>{props.name}</h2>
-            <h3>{props.date} Date: </h3>
+            <h3>Date: {props.date} </h3>
             <p className="log-content">Description: {props.description}</p>
         </div>
         </li>

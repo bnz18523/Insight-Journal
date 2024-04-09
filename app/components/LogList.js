@@ -13,7 +13,7 @@ const LogList = (props) => {
                         key={log.id}
                         id={log.id}
                         name={log.name}
-                        age={log.date}
+                        date={log.date}
                         img={log.img}
                         description={log.description}
                     />
