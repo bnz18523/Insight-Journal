@@ -35,10 +35,10 @@ const UserSignup= (props) => {
     if (logData.name == "" && logData.description == "") {
       alert("Please input your username and password.");
     }
-    if (logData.description != logDate.description2) {
+    if (logData.description != logData.description2) {
       alert("Please make sure your password was correctly typed.")
     } else {
-    props.onSaveLogData(logData);
+    //props.onSaveLogData(logData);
     setEnteredDescription('');
     setEnteredDescription2('');
     setEnteredName('');
@@ -70,7 +70,7 @@ const UserSignup= (props) => {
           value={enteredDescription2}
           onChange={descriptionChangeHandler2}
         />
-        <Button type="submit">Signup</Button>
+        <Button type="submit"><a href="Entry">Signup</a></Button>
       </form>
     </Card>
   );
