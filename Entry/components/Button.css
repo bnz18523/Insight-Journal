@@ -1,0 +1,36 @@
+/*.button {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}*/
+
+.button:hover,
+.button:active {
+  background: #791188;
+  border-color: #741188;
+}
+
+.button:focus {
+  outline: none;
+}
+
+button {
+  color: #fff; /* Text color */
+  background-color: #5FA9DF; /* Button color */
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
