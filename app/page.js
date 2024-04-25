@@ -4,6 +4,7 @@ import LogList from './components/LogList';
 import AddLog from './components/AddLog';
 import Hdr from './components/Hdr';
 import { useLogin } from './Login/LoginContext';
+import invalidPage from './invalidPage';
 
 function App() {
 

@@ -8,7 +8,7 @@ const LoginHdr = () => {
   return (
     <div>
       <nav>
-        <Button><a href="/">Home</a></Button>
+        <Button class = "Home"><a href="/">Home</a></Button>
       </nav>
       <div className="hdr">
         <h1>Insight Journal</h1>

@@ -9,7 +9,7 @@ function Cooking() {
   };
 
   return (
-    <div>
+    <div className = "cooking">
       <ul>
         {cookingItems.map((item) => (
           <li key={item.id}>{item.content}</li>

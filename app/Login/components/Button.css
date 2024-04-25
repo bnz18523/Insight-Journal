@@ -28,6 +28,11 @@ button {
   border-radius: 10px;
 }
 
+nav Button {
+  margin-left: 0;
+}
+
+
 .button-container {
   display: flex;
   justify-content: center;
