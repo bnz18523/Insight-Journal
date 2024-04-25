@@ -10,27 +10,25 @@ function AddItemCard({ onAdd }) {
 
   const handleAddItem = () => {
     if (!title || !description || !imageUrl || !date) {
-      alert('Please fill in all fields.');
+      alert('Please make sure you filled out every field.');
       return;
     }
 
-    // Create a new item object with the entered data
     const newItem = {
       id: Math.random(),
       title: title,
       description: description,
       imageUrl: imageUrl,
-      date: date // Include the date in the new item object
+      date: date 
     };
 
-    // Call the onAdd function passed from the parent component
     onAdd(newItem);
 
-    // Reset input fields
     setTitle('');
     setDescription('');
     setImageUrl('');
     setDate('');
+    
   };
 
   return (

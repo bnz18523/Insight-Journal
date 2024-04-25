@@ -18,8 +18,8 @@
 }
 
 button {
-  color: #fff; /* Text color */
-  background-color: #5FA9DF; /* Button color */
+  color: #fff; 
+  background-color: #5FA9DF; 
   border: none;
   padding: 10px 20px;
   margin-left: 10px;
@@ -28,9 +28,14 @@ button {
   border-radius: 10px;
 }
 
+.button-delete {
+  margin-left: 15px;
+}
+
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
